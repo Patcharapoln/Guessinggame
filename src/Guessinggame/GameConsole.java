@@ -2,13 +2,13 @@ package Guessinggame;
 import java.util.Scanner;
 
 /**
- * This class has no javadoc!
- * @author Patcharapol
+ * 
+ * @author Patcharapol Nirunpornputta
  *
  */
 public class GameConsole {
 	/**
-	 * 
+	 * Ask users to guess a number
 	 * @param game
 	 * @return a secret number
 	 */
