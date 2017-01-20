@@ -36,7 +36,11 @@ public class GuessingGame {
 		Random rand = new Random( seed );
 		return rand.nextInt(limit) + 1;
 		}
-	
+	/**
+	 * Show a hint if user input wrong number and show secret number when user input correct number
+	 * @param number input by user
+	 * @return
+	 */
 	public boolean guess(int number){
 		if(number==this.secret){
 			setHint("Correct.The secret is "+this.secret);
